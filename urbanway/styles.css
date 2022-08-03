@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    background-image: url(./images/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+   
+}
+
+.main-heading {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    color: #FFF5EE;
+    letter-spacing: 2.8px;
+    margin-left: 30px;
+    margin-top: 160px;
+   
+    /* background-color: #A8763E; */
+      
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#grey-span {
+    color: #808080;
+}
+
+.second-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22.5px;
+    font-style: normal;
+    text-transform: uppercase; 
+    color: #FFF5EE;
+    letter-spacing: 2.8px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+   
+}
+
+#activities {
+    background: black;
+    margin: 0;
+    text-align: center;
+
+}
+
+.images-activities {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+
+#activities h4 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF5EE;
+    text-transform: uppercase;
+}
+
+
+
+.first-activity {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.second-activity {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.third-activity {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#contact-section {
+    background: #353839;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFF5EE;
+    letter-spacing: 2.8px;
+}
+
+.heading-and-text-contacts {
+    font-size: 20px;
+    color: #FFF5EE;
+    letter-spacing: 2.8px;
+    margin-top: 100px;
+}
+
+.heading-contacts {
+    margin-left: 30px;
+}
+
+.text-contacts {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #FFF5EE;
+    margin-top: 0;
+    margin-left: 150px;
+    margin-right: 115px;
+}
+
+.credits {
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: #FFF5EE;
+    margin-right: 15px;
+    margin-top: 70px;
+}
+
+.credits-paragraph {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    color: #FFF5EE;
+
+}
+
+a {
+    color: #FFF5EE;
+    text-decoration: none;
+}
+
+#span-credits {
+    color:#F04A00;
+}
+
+#barber-table {
+    background: black;
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+table, th, td {
+    border: 2px solid #FFF5EE;
+    width: 750px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    color: #FFF5EE;
+    font-family: 'Oswald', sans-serif;
+
+  }
+  
+.heading-table-page {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #FFF5EE;
+}
+
+.barber-btn {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    letter-spacing: 2.8px;
+    font-weight: 400;
+    font-size: 42px;
+    color: seashell;
+    margin-bottom: 35px;
+    background: black;
+    border: 2px solid #FFF5EE;
+    border-radius: 10px;
+    background: #353839;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.table-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    text-align: center;  
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#table-and-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.ourInput {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF5EE;
+    background: #353839;
+    border-radius: 10px;
+    border: 1px solid #FFF5EE;
+  }
+
+.applyButton {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    color: seashell;
+    letter-spacing: 2.8px;
+    background: #353839;
+    border-radius: 10px;
+    border: 2px solid #FFF5EE;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 65px;
+    margin-bottom: 50px;
+  }
+
+#registration-form {
+    background: black;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.heading-registration-page {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #FFF5EE;
+    margin-top: 85px;
+}
+
+.fields-and-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
